@@ -9,6 +9,8 @@ export default function TodoList() {
   const { todos } = useSelector((state) => state.todos);
   const { finishedTodos } = useSelector((state) => state.finishedTodos);
   const dispatch = useDispatch();
+
+  //로컬스토리지
   const getTodos = window.localStorage.getItem("todos");
   const storageTodos = JSON.parse(getTodos);
   const getFinishTodos = window.localStorage.getItem("finishTodos");
