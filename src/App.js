@@ -2,7 +2,7 @@ import React from "react";
 import ChatBot from "./components/chatbot/ChatBot";
 import TodoList from "./components/todo/TodoList";
 import Weather from "./components/weather/Weather";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
