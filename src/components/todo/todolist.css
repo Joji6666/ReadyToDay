@@ -201,4 +201,8 @@
     margin: 5px;
     font-size: 18px;
   }
+
+  .progressbar {
+    width: 50px;
+  }
 }

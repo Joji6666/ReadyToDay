@@ -34,13 +34,16 @@ export default function TodoList() {
       <div className="progress-box">
         {todos.length + finishedTodos.length > 0 ? (
           <>
-            <h2>달성</h2>
+            <h2 className="complete">달성</h2>
             <progress
+              className="progressbar"
               value={finishedTodos.length}
               max={todos.length + finishedTodos.length}
             ></progress>
             {finishedTodos.length === todos.length + finishedTodos.length ? (
-              <span>축하합니다. 오늘의 할 일을 다 완료했어요!</span>
+              <span className="complete-message">
+                축하합니다. 오늘의 할 일을 다 완료했어요!
+              </span>
             ) : null}
           </>
         ) : null}
