@@ -3,9 +3,13 @@
 - 오늘의 할 일을 기록하고 오늘의 날씨를 확인하세요! 오늘 하루를 준비할 수 있는 웹서비스입니다.
 - 음성인식 기능을 이용하여 할 일을 기록할 수 있고 간단한  질문을 할 수 있는 챗봇이 준비되어있습니다.
 
-
+PC화면
 ![todo](https://user-images.githubusercontent.com/115249840/219344095-fc62ae1f-8ab6-4923-9c2f-2fab8ac3f76b.gif)
+
+Tablet 화면
 ![테블릿](https://user-images.githubusercontent.com/115249840/219344126-3f17eb0d-737c-43d2-8b63-708e05386f25.gif)
+
+Mobile 화면
 ![모바일](https://user-images.githubusercontent.com/115249840/219344150-7e9632a1-e22d-4f0b-b85d-cebce607805f.gif)
 
 ---
