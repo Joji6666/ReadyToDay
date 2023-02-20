@@ -39,7 +39,7 @@ Mobile 화면
 
 ### 🔗 배포 URL
 
-[https://ready-to-day.vercel.app/](https://ready-to-day.vercel.app/)                                                       
+https://ready-to-day.web.app/                                            
 
 ---
 
