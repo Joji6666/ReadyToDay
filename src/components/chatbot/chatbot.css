@@ -6,10 +6,6 @@
   background-color: rgba(39, 50, 70, 0.5);
   margin-left: 20px;
   border-radius: 10px;
-  background-image: url("../../images/bot.png");
-  background-position: center;
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
 }
 
 .chatbot-container {
@@ -88,6 +84,11 @@
   height: 24px;
 }
 
+.threebot {
+  position: absolute;
+  top: 490px;
+  left: 270px;
+}
 @media only screen and (max-width: 800px) {
   .chatbot-template {
     margin: 0;
@@ -98,10 +99,12 @@
     margin-top: 20px;
     margin-left: 0px;
     border-radius: 10px;
-    background-image: url("../../images/bot.png");
-    background-position: center;
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
+
     align-items: center;
+  }
+  .threebot {
+    position: absolute;
+    top: 210%;
+    left: 30%;
   }
 }

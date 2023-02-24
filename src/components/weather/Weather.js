@@ -10,6 +10,7 @@ import scatteredClouds from "../../images/weather/scattered clouds.png";
 import showerRain from "../../images/weather/shower rain.png";
 import snow from "../../images/weather/snow.png";
 import thunderstrom from "../../images/weather/thunderstorm.png";
+import ThreeEarth from "../three/ThreeEarth";
 
 export default function Weather() {
   const [cityName, setCityName] = useState("");
@@ -76,6 +77,7 @@ export default function Weather() {
         <span className="weather-icon-box">
           날씨: <img src={weatherIcon} />
         </span>
+        <ThreeEarth />
       </div>
     </>
   );

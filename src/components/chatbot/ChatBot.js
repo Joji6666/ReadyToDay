@@ -9,6 +9,7 @@ import bot from "../../images/robot.png";
 import mute from "../../images/silent.png";
 import voiceOn from "../../images/sound.png";
 import { handelKeyPress } from "../../utils/enterkeypress";
+import ThreeBot from "../three/ThreeBot";
 
 export default function ChatBot() {
   const dispatch = useDispatch();
@@ -100,6 +101,10 @@ export default function ChatBot() {
     <div className="chatbot-template">
       <div ref={scrollRef} className="chatbot-container">
         <div className="chat-area">
+          <div className="threebot">
+            <ThreeBot />
+          </div>
+
           {chat.map((contents, index) => {
             return (
               <>
